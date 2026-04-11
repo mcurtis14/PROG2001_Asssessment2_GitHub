@@ -2,10 +2,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 8f;
+    public float moveSpeed = 5f;
     private Rigidbody rb;
-    private float moveX;
-    private float moveZ;
+    private Vector3 movement;
 
     void Start()
     {
@@ -14,13 +13,14 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        moveX = Input.GetAxis("Horizontal");
-        moveZ = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+        movement = new Vector3(moveX, 0f, moveZ);
     }
 
     void FixedUpdate()
     {
-        Vector3 movement = new Vector3(moveX, 0.0f, moveZ);
-        rb.AddForce(movement * moveSpeed);
+        Vector3 newPosition = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(newPosition);
     }
 }
