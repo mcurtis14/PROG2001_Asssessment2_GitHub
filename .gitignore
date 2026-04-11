@@ -74,3 +74,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/MeredithsFolder/MeredithsAudio/102586__kangaroovindaloo__sounds-of-the-australian-bush.wav.meta
+
+# Ignore large audio
+*.wav
+*.mp3
+*.ogg
