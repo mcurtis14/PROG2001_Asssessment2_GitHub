@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Collectible
+  - ApplePickup1
+  - ApplePickup2
+  - LemonPickup1
+  - LemonPickup2
+  - PeachPickup1
+  - PeachPickup2
+  - PearPickup1
+  - PearPickup2
   layers:
   - Default
   - TransparentFX
