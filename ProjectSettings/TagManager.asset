@@ -13,6 +13,7 @@ TagManager:
   - PeachPickup2
   - PearPickup1
   - PearPickup2
+  - Pickup
   layers:
   - Default
   - TransparentFX
