@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenuFolder/MainMenuScene/MainMenuScene.unity
-    guid: c5d85a3b4d96e2b4dbff4f1733df1bdc
+    path: Assets/MainMenuFolder/MainMenuScene/BackupMainMenu/BackupMainMenuScene.unity
+    guid: 1a6968d6cdcc7664eb5a0ee9369a4fc5
   - enabled: 1
     path: Assets/MeredithsFolder/MeredithsScenes/MeredithScene.unity
     guid: 57dd7c6d340e8bf40bcded3ca7bc25a2
   - enabled: 1
     path: Assets/LucysFolder/LucysScenes/LucysScene.unity
     guid: 53fd5395527cd4b4c9889406534745c5
+  - enabled: 1
+    path: Assets/MainMenuFolder/MainMenuScene/MainMenuScene.unity
+    guid: c5d85a3b4d96e2b4dbff4f1733df1bdc
   m_configObjects: {}

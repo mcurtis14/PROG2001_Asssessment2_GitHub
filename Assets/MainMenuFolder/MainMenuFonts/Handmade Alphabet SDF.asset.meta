@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/MainMenuFolder/MainMenuFonts/Handmade Alphabet SDF.asset.meta
 guid: 677b0cd1e09a4bc49803fd9561d293b5
+========
+guid: f5d1822b43d48448a87785b54b8406a7
+>>>>>>>> a38896f407ea33a5461622735cfcc826a4072271:Assets/New Terrain.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
