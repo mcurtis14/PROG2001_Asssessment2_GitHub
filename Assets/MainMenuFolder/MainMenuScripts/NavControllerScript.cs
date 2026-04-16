@@ -8,7 +8,7 @@ public class NavControllerScript : MonoBehaviour
     public void LoadScene(string sceneName)
   {
     SceneManager.LoadScene(sceneName);
-  }     
-
+  } 
+      
  }
 
