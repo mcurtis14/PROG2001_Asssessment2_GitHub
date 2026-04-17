@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/MainMenuFolder/MainMenuScene/BackupMainMenuScene.unity
     guid: a87faeda0b4b8e543b25080a0f91e13c
   - enabled: 1
-    path: Assets/LucysFolder/LucysPrefabs/LucysScenes/LucysScene.unity
+    path: Assets/LucysFolder/LucysScenes/LucysScene.unity
     guid: 53fd5395527cd4b4c9889406534745c5
   - enabled: 1
     path: Assets/MeredithsFolder/MeredithsScenes/MeredithScene.unity
