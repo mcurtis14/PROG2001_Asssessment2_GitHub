@@ -10676,6 +10676,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e32f53cbe945403ba9eac4deaa662ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animal: {fileID: 0}
+  moveValue: 0
+  sizeChange: {x: 0, y: 0, z: 0}
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &1544256146
 Transform:
   m_ObjectHideFlags: 0
