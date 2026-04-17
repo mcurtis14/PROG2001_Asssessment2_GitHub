@@ -5,7 +5,7 @@ public class SceneLoader : MonoBehaviour
 {
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene("MainMenuScene");
+        SceneManager.LoadScene("BackupMainMenuScene");
     }
 
     public void LoadMeredithScene()
