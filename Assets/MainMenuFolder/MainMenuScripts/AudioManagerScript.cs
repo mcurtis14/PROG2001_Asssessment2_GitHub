@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-public void ToggleAllSound(
+public void ToggleAllSound()
     {
-        AudioManager.Listener.pause = !AudioLListener.pause;
+        AudioListener.pause = !AudioListener.pause;
     }   
 
 }
