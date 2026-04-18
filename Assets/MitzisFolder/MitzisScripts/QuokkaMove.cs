@@ -9,10 +9,10 @@ public class QuokkaMove : MonoBehaviour
     private Rigidbody rb;
     private float moveX;
     private float moveY;
-    public float moveSpeed = 17;
+    public float moveSpeed = 15;
     private int count;
     public TextMeshProUGUI countText;
-    public AudioSource crunchAudio;
+    public AudioSource chimeAudio;
 
     void Start()
     {
@@ -41,7 +41,7 @@ public class QuokkaMove : MonoBehaviour
             other.gameObject.SetActive(false);
             count = count + 5;
             SetCountText();
-            crunchAudio.Play();
+            chimeAudio.Play();
         }
     }
     public void SetCountText()
