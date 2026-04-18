@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MitzisFolder/MitzisScenes/MitzisScene.unity
     guid: 6c5624c58b67641fe87a0bd2da8c8a65
+  - enabled: 1
+    path: Assets/TraceysFolder/TraceyScene.unity
+    guid: 8ee46448f8bcd9d479f3ccbca7912f7d
   m_configObjects: {}
