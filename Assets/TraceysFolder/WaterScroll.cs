@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class WaterScroll : MonoBehaviour
+public class WaterFlow : MonoBehaviour
 {
-    public float speedX = 0.1f;
-    public float speedY = 0.1f;
+    public float flowSpeedX = 0.05f;
+    public float flowSpeedY = 0.02f;
 
     private Renderer rend;
 
@@ -14,8 +14,8 @@ public class WaterScroll : MonoBehaviour
 
     void Update()
     {
-        float offsetX = Time.time * speedX;
-        float offsetY = Time.time * speedY;
+        float offsetX = Time.time * flowSpeedX;
+        float offsetY = Time.time * flowSpeedY;
 
         rend.material.mainTextureOffset = new Vector2(offsetX, offsetY);
     }
