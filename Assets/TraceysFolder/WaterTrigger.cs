@@ -3,6 +3,13 @@ using UnityEngine;
 public class WaterTrigger : MonoBehaviour
 {
     public AmbienceSwitcher ambienceSwitcher;
+    public AudioSource splashSound;
+
+    public float waterSpeed = 2f;
+    public float landSpeed = 5f;
+
+    public float waterDrag = 3f;
+    public float landDrag = 0f;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,12 +20,23 @@ public class WaterTrigger : MonoBehaviour
             PlatypusMovement movement = other.GetComponent<PlatypusMovement>();
             if (movement != null)
             {
-                movement.moveSpeed = 2f;
+                movement.moveSpeed = waterSpeed;
+            }
+
+            Rigidbody rb = other.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.drag = waterDrag;
             }
 
             if (ambienceSwitcher != null)
             {
                 ambienceSwitcher.EnterWater();
+            }
+
+            if (splashSound != null)
+            {
+                splashSound.Play();
             }
         }
     }
@@ -32,7 +50,13 @@ public class WaterTrigger : MonoBehaviour
             PlatypusMovement movement = other.GetComponent<PlatypusMovement>();
             if (movement != null)
             {
-                movement.moveSpeed = 5f;
+                movement.moveSpeed = landSpeed;
+            }
+
+            Rigidbody rb = other.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.drag = landDrag;
             }
 
             if (ambienceSwitcher != null)
