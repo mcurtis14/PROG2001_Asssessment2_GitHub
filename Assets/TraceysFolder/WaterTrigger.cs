@@ -7,6 +7,12 @@ public class WaterTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Entered water!");
+
+            PlatypusMovement movement = other.GetComponent<PlatypusMovement>();
+            if (movement != null)
+            {
+                movement.moveSpeed = 2f;
+            }
         }
     }
 
@@ -15,6 +21,12 @@ public class WaterTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Left water!");
+
+            PlatypusMovement movement = other.GetComponent<PlatypusMovement>();
+            if (movement != null)
+            {
+                movement.moveSpeed = 5f;
+            }
         }
     }
 }
