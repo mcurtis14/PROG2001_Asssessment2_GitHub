@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
   - _ALPHAPREMULTIPLY_ON
+  - _EMISSION
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -32,5 +33,5 @@ Material:
     - _Mode: 3
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.078431375, g: 0.3137255, b: 0.54901963, a: 0.9019608}
+    - _Color: {r: 0.078431346, g: 0.31372547, b: 0.8392157, a: 0.9019608}
   m_BuildTextureStacks: []
