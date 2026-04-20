@@ -15,6 +15,8 @@ public class PlayerController_Lucy : MonoBehaviour
     public float speed = 0;
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
+    public AudioSource audioSource;
+    public AudioClip pickupSound;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +54,7 @@ void SetCountText()
     {
         if(other.gameObject.CompareTag("PickUp"))
         {
+            audioSource.PlayOneShot(pickupSound);
         other.gameObject.SetActive(false); 
         count = count + 1;  
         SetCountText();
