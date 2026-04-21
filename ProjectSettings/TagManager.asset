@@ -15,6 +15,8 @@ TagManager:
   - PearPickup2
   - Pickup
   - PickUp
+  - Enemy
+  - Collectable
   layers:
   - Default
   - TransparentFX
