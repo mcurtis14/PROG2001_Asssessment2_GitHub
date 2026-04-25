@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: Assets/MainMenuFolder/MainMenuScene/BackupMainMenuScene.unity
     guid: a87faeda0b4b8e543b25080a0f91e13c
   - enabled: 1
-    path: Assets/LucysFolder/LucysScenes/LucysScene.unity
-    guid: 53fd5395527cd4b4c9889406534745c5
-  - enabled: 1
-    path: Assets/MeredithsFolder/MeredithsScenes/MeredithScene.unity
-    guid: 57dd7c6d340e8bf40bcded3ca7bc25a2
-  - enabled: 1
-    path: Assets/MitzisFolder/MitzisScenes/MitzisScene.unity
-    guid: 6c5624c58b67641fe87a0bd2da8c8a65
+    path: Assets/TraceysFolder/Scenes/TraceyBillabongScene.unity
+    guid: dcbde87947bdca346b01321b972a10b9
   m_configObjects: {}
